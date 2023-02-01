@@ -42,8 +42,6 @@ const player = new Sprite({
   }
 })
 
-
-
 const enemy = new Sprite({
   position: {
     x:400,
@@ -67,3 +65,7 @@ function animate(){
 }
 
 animate();
+
+window.addEventListener('keydown', (event) => {
+ console.log(event);
+})
